@@ -1,0 +1,648 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janine Makorre – Outreachy Portfolio</title>
+</head>
+<body>
+
+    <h1>Janine Makorre – Outreachy Portfolio</h1>
+
+    <h2>Overview</h2>
+    <p>
+<h3>Personal & Community Background</h3>
+
+<p>
+I am a Data Scientist with a background in Product Design, bringing together analytical thinking, problem-solving, and a strong foundation in user-centered design.
+</p>
+
+<p>
+I come from the Kuria community in Kenya, a traditionally marginalized community where opportunities for girls are often limited. Being the firstborn in a family of six, I have had to navigate and overcome a range of social and economic challenges to pursue education and a career in technology.
+</p>
+
+<p>
+I was fortunate to have a father who believed in me despite societal expectations. He invested in my education, supported my learning, and played an active role in shaping how I think, study, and approach challenges. He remains a significant part of my journey.
+</p>
+
+<p>
+My mother has been a constant source of support, often offering perspective and grounding during difficult moments. Even without a technical background, her advice has helped me stay balanced and approach problems with clarity.
+</p>
+
+<p>
+I am also supported by my siblings, many of whom are in tech, and a close friend who has been deeply involved in reviewing my work and supporting my Outreachy journey. This strong support system has played a meaningful role in my growth.
+</p>
+
+<hr>
+
+<h3>Professional Background</h3>
+
+<p>
+My journey into tech began in design, where I learned how to approach complex problems creatively and keep users at the center of every decision. I now bring that same mindset into data science—asking the right questions, uncovering patterns, and translating insights into meaningful impact.
+</p>
+
+<p>
+I recently completed an intensive Data Science bootcamp, where I have built hands-on experience in Python, SQL, Pandas, Scikit-learn, and core machine learning techniques including regression, classification, and clustering. My work spans exploratory data analysis, predictive modeling, and data visualization across real-world datasets.
+</p>
+
+<hr>
+
+<h3>Outreachy Contributions</h3>
+
+<p>
+As part of my Outreachy application, I contributed to the Fedora ecosystem through projects involving Docling and Ramalama. My work focused on building and analyzing OCR pipelines for multilingual documents, comparing outputs across different approaches, and exploring how structured data can be used for downstream AI applications.
+</p>
+
+<p>
+Beyond technical contributions, I actively engaged in the community—initiating and coordinating peer reviews, structuring collaborative documentation, and participating in open discussions with contributors and mentors.
+</p>
+
+<p>
+This portfolio brings together my technical work, writing, collaboration, and reflections throughout the contribution phase.
+</p>
+
+<p>
+It showcases not just what I built, but how I think, collaborate, and grow within open-source environments.
+</p>
+    </p>
+<hr>
+
+    <h2>Key Contributions</h2>
+
+<h3>1. Document Processing & OCR Pipeline (Docling)</h3>
+<p>
+Built and analyzed a multilingual document processing pipeline using Docling and Tesseract. Processed Swahili and French documents, converted them into structured Markdown, and evaluated output quality across different document types.
+</p>
+<p>
+<strong>Impact:</strong> Demonstrated how OCR output quality varies based on document structure and highlighted the importance of validation before downstream AI use.
+</p>
+
+<hr>
+
+<h3>2. Peer Review System & Collaboration (HackMD)</h3>
+<p>
+Initiated and coordinated a structured peer review system for Outreachy contributors using HackMD. Designed the workflow, organized participants across multiple tasks, and created a centralized system for tracking reviews and contributions.
+</p>
+<p>
+<strong>Impact:</strong> Improved collaboration, increased visibility of contributions, and created a scalable system for structured feedback across the team.
+</p>
+
+<hr>
+
+<h3>3. Data Analysis & Visualization</h3>
+<p>
+Analyzed OCR outputs using statistical methods, including word count comparison, line length distribution, and noise detection. Used visualizations to better understand structural differences between documents and OCR performance.
+</p>
+<p>
+<strong>Impact:</strong> Provided deeper insight into OCR behavior beyond raw output, reinforcing the importance of analysis in document processing pipelines.
+</p>
+
+<hr>
+
+<h3>4. Technical Writing & Documentation</h3>
+<p>
+Authored a practical guide on navigating the Outreachy contribution phase, focusing on clear, actionable steps for new applicants.
+</p>
+<p>
+<strong>Impact:</strong> Demonstrated ability to translate complex processes into clear, structured guidance for others.
+</p>
+<hr>
+
+    <h2>Phase 1 – Technical Work (Docling OCR Pipeline)</h2>
+
+<p>
+<a href="https://github.com/Uxer-Janine/outreachy-docling-task.git" target="_blank">View Repository</a>
+</p>
+    <p>
+In this phase, I worked on building and analyzing a document processing pipeline using Docling and OCR engines to extract structured data from multilingual documents.
+</p>
+
+
+
+<h3>Pipeline Overview</h3>
+
+<p>
+The goal was to convert unstructured documents (PDFs in different languages) into structured Markdown format that can be used for downstream processing and analysis.
+</p>
+
+
+<h3>Tools & Technologies</h3>
+
+<ul>
+    <li>Docling (document processing pipeline)</li>
+    <li>Tesseract OCR</li>
+    <li>Easyocr</li>
+    <li>Python</li>
+    <li>Git</li>
+    <li>Command Line Interface (CLI)</li>
+</ul>
+
+
+<h3>Workflow</h3>
+
+<ol>
+    <li>Prepared multilingual documents (Swahili and French)</li>
+    <li>Processed documents using Docling with OCR support</li>
+    <li>Converted outputs into Markdown format</li>
+    <li>Organized outputs based on document type and OCR engine</li>
+    <li>Validated outputs for structure and readability</li>
+</ol>
+
+
+<h3>Outputs</h3>
+
+<p>
+The pipeline generated structured Markdown files from input PDFs. Outputs were organized clearly to allow comparison across documents and OCR processing results.
+</p>
+
+
+<h3>Key Observations</h3>
+
+<ul>
+    <li>OCR performance varied significantly depending on document structure and language</li>
+    <li>Clean, well-formatted documents produced more accurate outputs</li>
+    <li>Noise and formatting inconsistencies affected readability of extracted text</li>
+    <li>Structured output (Markdown) makes downstream processing more effective</li>
+</ul>
+
+
+<h3>Reflection</h3>
+
+<p>
+This phase strengthened my understanding of document processing pipelines, OCR limitations, and the importance of validating outputs before using them in downstream AI workflows. It also highlighted the need for combining technical execution with analytical evaluation.
+</p>
+<hr>
+
+<h2>Phase 1 – Iteration & Improvements</h2>
+
+<p>
+Following the initial implementation of the OCR pipeline, I revisited my work to improve structure, clarity, and reproducibility based on insights gained during peer reviews and self-evaluation.
+</p>
+
+
+<h3>Key Improvements</h3>
+
+<ul>
+    <li>Rebuilt the pipeline in a Fedora environment to validate cross-platform reproducibility</li>
+    <li>Restructured project folders to make them more intuitive and self-explanatory</li>
+    <li>Improved the README for clarity, including a clearer project structure and workflow explanation</li>
+    <li>Documented supported language codes for the OCR engines used</li>
+    <li>Provided clear reasoning behind the selection of OCR engines</li>
+    <li>Enhanced output presentation to better support comparison and analysis</li>
+    <li>Added a disclaimer on AI-assisted sections within notebooks for transparency</li>
+</ul>
+
+<h3>Improved Structure & Readability</h3>
+
+<p>
+The updated repository structure makes it easier for others to navigate the project, understand the workflow, and reproduce results without ambiguity.
+</p>
+
+
+<h3>Results & Output Improvements</h3>
+
+<p>
+Outputs were reorganized and refined to improve readability and comparison. Markdown outputs and supporting files were structured to clearly reflect differences in OCR performance across documents and configurations.
+</p>
+
+<!-- Optional: Add 1–2 images later -->
+<!--
+<img src="assets/images/output-sample.png" width="500">
+-->
+
+
+<h3>Reflection</h3>
+
+<p>
+This iteration phase reinforced the importance of revisiting and refining work after initial completion. Beyond technical improvements, it highlighted the value of peer feedback, clear documentation, and thoughtful project organization in making work accessible and impactful.
+</p>
+
+<hr>
+
+<h2>Data Analysis & Visualizations</h2>
+<p>
+<a href="https://github.com/Uxer-Janine/outreachy-docling-task/blob/master/04-notebooks/01-docling-ocr-output-analysis.ipynb" target="_blank">View Analysis Notebook</a>
+</p>
+<p>
+Beyond document processing, I conducted analysis on OCR outputs to better understand the quality, structure, and reliability of extracted text across different documents.
+</p>
+
+<h3>Analysis Approach</h3>
+
+<p>
+To move beyond surface-level observations, I analyzed OCR outputs using basic statistical and visual techniques. The goal was to evaluate not just how much text was extracted, but how usable and structured that text was.
+</p>
+
+<h3>Techniques Used</h3>
+
+<ul>
+    <li>Word count comparison across documents</li>
+    <img src="assets/images/word-count-comparison.png">
+    <li>Line length distribution to assess structural patterns</li>
+    <img src="assets/images/swahili-line-length.png">
+    <img src="assets/images/french-line-length.png">
+    <li>Noise detection to identify irregular or low-quality outputs</li>
+</ul>
+<p>
+These visualizations were used to better understand patterns, structure, and inconsistencies in OCR outputs across different documents.
+</p>
+<h3>Key Insights</h3>
+
+<ul>
+    <li>Similar word counts do not necessarily indicate similar output quality</li>
+    <li>Document structure significantly affects OCR performance</li>
+    <li>Structured documents (e.g., phrasebooks) produce more predictable outputs than paragraph-based text</li>
+    <li>Noise and formatting inconsistencies can impact downstream usability</li>
+</ul>
+
+
+<h3>Reflection</h3>
+
+<p>
+This analysis reinforced the importance of validating OCR outputs before using them in downstream applications. It also highlighted how combining technical execution with analytical evaluation leads to more reliable and meaningful results.
+</p>
+
+<hr>
+<h2>Extended Experiments</h2>
+
+<h3>1. OCR Engine Comparison (Tesseract vs EasyOCR)</h3>
+
+<p>
+Explored and compared Tesseract and EasyOCR engines to understand differences in performance, accuracy, and output quality across multilingual documents.
+</p>
+
+<p>
+<strong>Key Insight:</strong> Different OCR engines produce varying results depending on document structure and language, reinforcing the importance of selecting the right tool for the task.
+</p>
+<p>
+<a href="https://github.com/Uxer-Janine/outreachy-docling-task/blob/master/04-notebooks/03-tesseract-vs-easyocr-comparison.ipynb" target="_blank">View Analysis Notebook</a>
+</p>
+
+<h3>2. RAG Semantic Retrieval Pipeline (RAG)</h3>
+
+<p>
+Built a basic semantic retrieval pipeline by converting processed documents into embeddings and enabling retrieval based on meaning rather than keyword matching.
+</p>
+
+<p>
+<strong>Key Insight:</strong> Structured document outputs significantly improve retrieval quality, highlighting the importance of preprocessing in AI pipelines.
+</p>
+<p>
+<a href="https://github.com/Uxer-Janine/outreachy-docling-task/blob/master/04-notebooks/02-rag-semantic-retrieval-pipeline.ipynb" target="_blank">View Analysis Notebook</a>
+</p>
+<hr>
+
+<h2>Peer Reviews & Analytical Feedback</h2>
+
+<p>
+As part of the contribution phase, I actively participated in peer reviews, evaluating other contributors’ work and providing structured, constructive feedback.
+</p>
+<p>
+<a href="https://hackmd.io/@framalama-om26-maintainers/BJtMhF-3-e" target="_blank">View Peer Review Document</a>
+</p>
+
+<h3>Approach</h3>
+
+<p>
+Each review focused on identifying strengths, areas for improvement, and opportunities for refinement. I aimed to provide feedback that was not only evaluative but also actionable and supportive.
+</p>
+
+
+<h3>Reviews Completed</h3>
+
+<ul>
+    <li><strong>Njeri Kimaru:</strong> Reviewed project structure, OCR experimentation depth, and documentation clarity.</li>
+    <li><strong>gtfrans2re:</strong> Reviewed workflow clarity, tool comparison approach, and project organization.</li>
+</ul>
+
+
+<h3>Key Takeaways</h3>
+
+<ul>
+    <li>Clear structure and documentation significantly improve usability and understanding</li>
+    <li>Accurate comparisons require a clear understanding of tools and their roles</li>
+    <li>Well-organized outputs make analysis and validation easier</li>
+</ul>
+
+
+<h3>Reflection</h3>
+
+<p>
+This process strengthened my ability to critically evaluate technical work, communicate feedback clearly, and identify areas of improvement both in others’ work and my own.
+</p>
+
+<hr>
+
+<h2>Community Engagement & Leadership</h2>
+
+<p>
+Beyond technical contributions, I actively engaged in the Outreachy community, contributing to collaboration, organization, and knowledge sharing among contributors.
+</p>
+
+
+<h3>Peer Review Coordination</h3>
+
+<p>
+I initiated and structured a peer review system to encourage collaboration and improve the quality of submissions across contributors. This involved creating a centralized HackMD document, organizing participants, and establishing a clear workflow for reviews.
+</p>
+<img src="assets/images/peer-review-invite.png" width="500">
+
+<h3>Collaboration & Communication</h3>
+
+<p>
+I actively participated in community discussions on Matrix, engaging with contributors and mentors to clarify project expectations, align on workflows, and support collective progress.
+</p>
+<img src="assets/images/project-timelines-request.png" width="500">
+<p>
+    My request for project timelines was aimed at improving visibility and coordination across the team, allowing contributors to better understand how their work fits into the larger project goals. It was also to help with Outreachy final application requirements, which ask for a clear timeline of contributions and milestones.
+</p>
+<img src="assets/images/project-timelines.png" width="500">
+<p>
+Below is an example of my interaction with contributors, where I guided discussions and helped maintain alignment across the team.
+</p>
+
+<img src="assets/images/leadership.png" width="500">
+
+<h3>Improving Structure & Visibility</h3>
+
+<p>
+I contributed to improving the organization and visibility of work by:
+</p>
+
+<ul>
+    <li>Structuring peer review documentation for easier navigation</li>
+    <li>Encouraging contributors to share and review work openly</li>
+    <li>Helping align contributions across multiple tasks</li>
+</ul>
+
+<h3>Key Impact</h3>
+
+<ul>
+    <li>Improved collaboration and engagement among contributors</li>
+    <li>Increased visibility of individual contributions</li>
+    <li>Created a reusable structure for peer-driven feedback</li>
+</ul>
+
+<h3>Reflection</h3>
+
+<p>
+This experience reinforced the importance of communication, initiative, and collaboration in open-source environments. It also highlighted how contributing beyond assigned tasks can create meaningful impact within a community.
+</p>
+<h3>Insights from the Community</h3>
+
+<p>
+As part of my learning process, I actively engaged with the Outreachy community beyond assigned tasks, including reaching out to former contributors and participating in ongoing discussions.
+</p>
+
+
+
+<h4>Learning from Former Contributors</h4>
+
+<p>
+I reached out to a former Outreachy contributor who later became an intern to better understand what differentiates strong applicants during the contribution phase.
+</p>
+
+<p>
+A key takeaway from this interaction was the importance of working publicly, collaborating with others, and taking initiative rather than waiting for direction.
+</p>
+
+<p>
+This reinforced my approach throughout this project—actively engaging in discussions, coordinating peer reviews, and contributing beyond individual tasks.
+</p>
+
+<img src="assets/images/community-insight.png" width="500" alt="Conversation with former Outreachy intern">
+
+<hr>
+<h2>Phase 2 – Ramalama Documentation Contributions</h2>
+
+<p>
+In Phase 2, I contributed to improving the Ramalama documentation as part of a collaborative effort with other Outreachy applicants.
+</p>
+
+<p>
+This work focused specifically on documentation (not core development), with the goal of making the content more consistent, readable, and accessible for new users.
+</p>
+<p>
+<a href="https://hackmd.io/@framalama-om26-maintainers/S1Bkc9ai-e/edit" target="_blank">
+View Collaborative Documentation Guide (HackMD)
+</a>
+</p>
+
+
+<h3>Collaboration & Contribution</h3>
+
+<p>
+I worked alongside other contributors to:
+</p>
+
+<ul>
+    <li>Review and refine documentation structure</li>
+    <li>Align formatting and writing styles across different pages</li>
+    <li>Participate in discussions around standardizing documentation practices</li>
+</ul>
+
+<h3>Approach</h3>
+
+<p>
+The focus was on collaborative improvement rather than individual ownership. This involved contributing ideas, reviewing shared documents, and aligning with the team on best practices for documentation.
+</p>
+
+<h3>Key Learning</h3>
+
+<ul>
+    <li>Consistency in documentation is critical for usability</li>
+    <li>Collaborative writing requires alignment and communication</li>
+    <li>Clear structure improves readability and onboarding experience</li>
+</ul>
+
+<h3>Ongoing Work</h3>
+
+<p>
+This work is ongoing and continues to evolve through collaboration with other contributors as we refine the documentation approach.
+</p>
+
+<hr> 
+
+<h2>Writing & Documentation</h2>
+
+<p>
+Alongside technical work, I focused on documenting my learnings and creating resources to make complex concepts more accessible to others.
+</p>
+
+<h3>Outreachy Contribution Guide</h3>
+
+<p>
+Wrote a practical, step-by-step guide to help new applicants navigate the Outreachy contribution phase with clarity and confidence.
+</p>
+
+<p>
+<strong>Impact:</strong> Simplifies the contribution process and provides actionable guidance for first-time contributors.
+</p>
+
+<p>
+<a href="https://medium.com/@janinemakorre/how-to-navigate-the-outreachy-contribution-phase-without-getting-overwhelmed-0ab4b4d5978d" target="_blank">Read Blog Post</a>
+</p>
+
+
+<h3>Fedora Blog Posts</h3>
+
+<p>
+Documented my experience and learnings while contributing to the Fedora ecosystem, focusing on both technical and non-technical aspects of the journey.
+</p>
+
+<p>
+<a href="https://medium.com/@janinemakorre/getting-started-with-fedora-a-simple-introduction-b0b87de6751c" target="_blank">Getting Started with Fedora - A Simple Introduction</a>
+</p>
+<p>
+<a href="https://medium.com/@janinemakorre/my-experience-with-the-fedora-docling-project-beff435bd217" target="_blank">My Experience with the Fedora Docling Project</a>
+</p>
+
+<h3>Ramalama “For Dummies” Series (In Progress)</h3>
+
+<p>
+Currently developing a simplified guide to explain Ramalama concepts in an accessible and beginner-friendly way.
+</p>
+
+<p>
+<strong>Goal:</strong> Break down complex ideas into clear, easy-to-understand explanations for new contributors.
+</p>
+<p>
+<a href="https://medium.com/@janinemakorre/ramalama-for-dummies-by-a-dummy-1-what-is-ocr-and-why-it-matters-2146ad3f0a9a" target="_blank">Ramalama for Dummies#1: What is OCR and Why It Matters</a>
+</p>
+<p>
+<a href="https://medium.com/@janinemakorre/ramalama-for-dummies-by-a-dummy-2-what-is-docling-and-why-its-more-than-ocr-465061803350" target="_blank">Ramalama for Dummies#2: What is Docling and Why It's More Than OCR</a>
+</p>
+<p>
+<a href="https://medium.com/@janinemakorre/ramalama-for-dummies-by-a-dummy-3-what-is-rag-and-why-ai-needs-it-5f1a505142b0" target="_blank">Ramalama for Dummies#3: What is RAG and Why AI Needs It</a>
+</p>
+<p>
+<a href="https://medium.com/@janinemakorre/ramalama-for-dummies-by-a-dummy-4-from-messy-pdfs-to-searchable-ai-docling-ocr-retrieval-93b0ddb223cd" target="_blank">Ramalama for Dummies#4: From Messy PDFs to Searchable AI </a>
+</p>
+
+<hr>
+
+<h2>Pre-requisites</h2>
+
+<p>
+As part of the Outreachy application process, I completed all required pre-requisite tasks, including account setup, blogging, and documentation.
+</p>
+
+<ul>
+    <li><a href="https://forge.fedoraproject.org/commops/interns/issues/116#issuecomment-592113">Fedora Account Setup (FAS)</a></li>
+    <li><a href="https://forge.fedoraproject.org/commops/interns/issues/117#issuecomment-592118">Personal Blog Setup</a></li>
+    <li><a href="https://forge.fedoraproject.org/commops/interns/issues/118#issuecomment-593456">Fedora Introduction Blog Post</a></li>
+    <li><a href="https://forge.fedoraproject.org/commops/interns/issues/123#issuecomment-593475">Social Media Promotion</a></li>
+    <li><a href="https://forge.fedoraproject.org/commops/interns/issues/120#issuecomment-608917">Outreachy Onboarding Guide</a></li>
+    <li><a href="LINK">Portfolio Submission</a></li>
+</ul>
+
+<hr>
+<h2>Reflections & Learnings</h2>
+
+<p>
+Throughout the contribution phase, I documented both technical and non-technical reflections to better understand what I was building, how I was working, and what I was learning along the way.
+</p>
+
+
+<h3>Technical Reflections</h3>
+
+<p>
+My technical reflections focused on the practical side of the work: environment setup, OCR output quality, debugging, tool comparisons, and the process of turning raw documents into structured, usable data.
+</p>
+
+<ul>
+    <li>Documented setup challenges, including Windows-specific errors and environment issues</li>
+    <li>Reflected on OCR quality, output structure, and comparison across approaches</li>
+    <li>Captured lessons from analysis, iteration, and pipeline improvement</li>
+</ul>
+<p>
+Below are links to the technical reflections I documented during the contribution phase, which provide deeper insights into the challenges faced, solutions implemented, and lessons learned throughout the process.
+</p>
+<p>
+<a href="https://github.com/Uxer-Janine/outreachy-docling-task/blob/master/01-notes/02-technical/01-windows-symlink-error-and-fix%20(2).md" target="_blank">Windows Symlink Error and Fix</a>
+</p>
+<p>
+<a href="https://github.com/Uxer-Janine/outreachy-docling-task/blob/master/01-notes/02-technical/02-docling-environment-setup-and-debugging.md" target="_blank">Docling Environment Setup and Debugging</a>
+</p>
+<p>
+<a href="https://github.com/Uxer-Janine/outreachy-docling-task/blob/master/01-notes/02-technical/03-french-docling-pipeline.md" target="_blank">French Docling Pipeline</a>
+</p>
+<p>
+<a href="https://github.com/Uxer-Janine/outreachy-docling-task/blob/master/01-notes/02-technical/04-easyocr-pipeline.md" target="_blank">Easyocr pipeline</a>
+</p>
+
+
+<h3>Non-Technical Reflections</h3>
+
+<p>
+My non-technical reflections focused on how I approached the contribution phase as a whole, including communication, collaboration, initiative, and learning in public.
+</p>
+
+<ul>
+    <li>Reflected on contributing publicly rather than working in isolation</li>
+    <li>Documented lessons around consistency, feedback, and open collaboration</li>
+    <li>Captured personal growth throughout the contribution process</li>
+</ul>
+<p>
+Below are links to the non-technical reflections I documented during the contribution phase, which provide insights into how I approached the work, collaborated with others, and grew throughout the process.
+</p>
+<p>
+<a href="https://github.com/Uxer-Janine/outreachy-docling-task/blob/master/01-notes/01-reflection/01-weeek-1.md" target="_blank">Week 1 Reflections</a>
+</p>
+<p>
+<a href="https://github.com/Uxer-Janine/outreachy-docling-task/blob/master/01-notes/01-reflection/02-week-2.md" target="_blank">Week 2 Reflections</a>
+</p>
+
+<h3>Key Takeaway</h3>
+
+<p>
+These reflections helped me move beyond simply completing tasks. They allowed me to think more intentionally about how I work, how I collaborate, and how I continue improving both the technical and human sides of my practice.
+</p>
+
+<hr>
+<h2>Demo & Walkthrough</h2>
+
+<p>
+To complement the written documentation, I created a walkthrough demonstrating the document processing pipeline and outputs.
+</p>
+
+
+<h3>Docling OCR Pipeline Demo</h3>
+
+<p>
+This video showcases the end-to-end process of running the pipeline, generating outputs, and reviewing results.
+</p>
+<iframe 
+    src="https://drive.google.com/file/d/1u73YLYaPO5KSL1APeCLV0RJrJgxfPi9J/preview" 
+    width="640" 
+    height="360" 
+    allow="autoplay">
+</iframe>
+
+<hr>
+<h2>Links</h2>
+<ul>
+    <li><a href="https://github.com/Uxer-Janine/outreachy-docling-task.git" target="_blank">GitHub</a></li>
+    <li><a href="https://medium.com/@janinemakorre" target="_blank">Medium</a></li>
+    <li><a href="https://hackmd.io/@framalama-om26-maintainers/BJtMhF-3-e" target="_blank">Peer Review (HackMD)</a></li>
+    <li><a href="https://hackmd.io/@framalama-om26-maintainers/S1Bkc9ai-e/edit" target="_blank">Ramalama Documentation (HackMD)</a></li>
+</ul>
+
+<hr>
+
+<h2>Final Note</h2>
+
+<p>
+This portfolio represents my contributions during the Outreachy application phase, bringing together technical work, collaboration, and continuous learning.
+</p>
+
+<p>
+Through this process, I have developed not only my technical skills, but also my ability to work in open-source environments, communicate effectively, and contribute meaningfully to a team.
+</p>
+
+<p>
+Thank you for taking the time to review my work.
+</p>    
+
+</body>
+</html>
