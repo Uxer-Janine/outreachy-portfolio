@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Janine Makorre – Outreachy Portfolio</title>
+</head>
+<body>
+
+    <nav>
+  <a href="index.html">About</a>
+  <a href="technical-work.html">Technical Work</a>
+  <a href="collaboration.html">Collaboration</a>
+  <a href="docs-writing.html">Docs & Writing</a>
+  <a href="links.html">Links</a>
+</nav>
+
+<section id="docling">
+
+        <h2>Phase 1 – Technical Work (Docling OCR Pipeline)</h2>
+        <p>
+            <a href="https://github.com/Uxer-Janine/outreachy-docling-task.git" target="_blank">View Repository</a>
+        </p>
+        <p>
+            In this phase, I worked on building and analyzing a document processing pipeline using Docling and OCR engines to extract structured data from multilingual documents.
+        </p>
+        <h3>Pipeline Overview</h3>
+        <p>
+            The goal was to convert unstructured documents (PDFs in different languages) into structured Markdown format that can be used for downstream processing and analysis.
+        </p>
+        <h3>Tools & Technologies</h3>
+        <ul>
+            <li>Docling (document processing pipeline)</li>
+            <li>Tesseract OCR</li>
+            <li>Easyocr</li>
+            <li>Python</li>
+            <li>Git</li>
+            <li>Command Line Interface (CLI)</li>
+        </ul>
+        <h3>Workflow</h3>
+            <ol>
+                <li>Prepared multilingual documents (Swahili and French)</li>
+                <li>Processed documents using Docling with OCR support</li>
+                <li>Converted outputs into Markdown format</li>
+                <li>Organized outputs based on document type and OCR engine</li>
+                <li>Validated outputs for structure and readability</li>
+            </ol>
+        
+        <h3>Outputs</h3>
+        <p>
+            The pipeline generated structured Markdown files from input PDFs. Outputs were organized clearly to allow comparison across documents and OCR processing results.
+        </p>
+
+        <h3>Key Observations</h3>
+        <ul>
+            <li>OCR performance varied significantly depending on document structure and language</li>
+            <li>Clean, well-formatted documents produced more accurate outputs</li>
+            <li>Noise and formatting inconsistencies affected readability of extracted text</li>
+            <li>Structured output (Markdown) makes downstream processing more effective</li>
+        </ul>
+
+        <h3>Reflection</h3>
+        <p>
+            This phase strengthened my understanding of document processing pipelines, OCR limitations, and the importance of validating outputs before using them in downstream AI workflows. It also highlighted the need for combining technical execution with analytical evaluation.
+        </p>
+        <hr>
+
+        <h2>Phase 1 – Iteration & Improvements</h2>
+        <p>
+            Following the initial implementation of the OCR pipeline, I revisited my work to improve structure, clarity, and reproducibility based on insights gained during peer reviews and self-evaluation.
+        </p>
+        <h3>Key Improvements</h3>
+        <ul>
+            <li>Rebuilt the pipeline in a Fedora environment to validate cross-platform reproducibility</li>
+            <li>Restructured project folders to make them more intuitive and self-explanatory</li>
+            <li>Improved the README for clarity, including a clearer project structure and workflow explanation</li>
+            <li>Documented supported language codes for the OCR engines used</li>
+            <li>Provided clear reasoning behind the selection of OCR engines</li>
+            <li>Enhanced output presentation to better support comparison and analysis</li>
+            <li>Added a disclaimer on AI-assisted sections within notebooks for transparency</li>
+        </ul>
+        <h3>Improved Structure & Readability</h3>
+        <p>
+            The updated repository structure makes it easier for others to navigate the project, understand the workflow, and reproduce results without ambiguity.
+        </p>
+        <h3>Results & Output Improvements</h3>
+        <p>
+            Outputs were reorganized and refined to improve readability and comparison. Markdown outputs and supporting files were structured to clearly reflect differences in OCR performance across documents and configurations.
+        </p>
+        <!-- Optional: Add 1–2 images later -->
+        <!--
+        <img src="assets/images/output-sample.png" width="500">
+        -->
+
+        <h3>Reflection</h3>
+        <p>
+            This iteration phase reinforced the importance of revisiting and refining work after initial completion. Beyond technical improvements, it highlighted the value of peer feedback, clear documentation, and thoughtful project organization in making work accessible and impactful.
+        </p>
+        <hr>
+
+        <h2>Data Analysis & Visualizations</h2>
+        <p>
+            <a href="https://github.com/Uxer-Janine/outreachy-docling-task/blob/master/04-notebooks/01-docling-ocr-output-analysis.ipynb" target="_blank">View Analysis Notebook</a>
+        </p>
+        <p>
+            Beyond document processing, I conducted analysis on OCR outputs to better understand the quality, structure, and reliability of extracted text across different documents.
+        </p>
+        <h3>Analysis Approach</h3>
+        <p>
+            To move beyond surface-level observations, I analyzed OCR outputs using basic statistical and visual techniques. The goal was to evaluate not just how much text was extracted, but how usable and structured that text was.
+        </p>
+        <h3>Techniques Used</h3>
+        <ul>
+            <li>Word count comparison across documents</li>
+            <img src="https://raw.githubusercontent.com/Uxer-Janine/outreachy-portfolio/main/Assets/Images/word-count-comparison.png">
+            <li>Line length distribution to assess structural patterns</li>
+            <img src="https://raw.githubusercontent.com/Uxer-Janine/outreachy-portfolio/main/Assets/Images/swahili-line-length.png">
+            <img src="https://raw.githubusercontent.com/Uxer-Janine/outreachy-portfolio/main/Assets/Images/french-line-length.png">
+
+        </ul>
+        <p>
+            These visualizations were used to better understand patterns, structure, and inconsistencies in OCR outputs across different documents.
+        </p>
+        <h3>Key Insights</h3>
+        <ul>
+            <li>Similar word counts do not necessarily indicate similar output quality</li>
+            <li>Document structure significantly affects OCR performance</li>
+            <li>Structured documents (e.g., phrasebooks) produce more predictable outputs than paragraph-based text</li>
+            <li>Noise and formatting inconsistencies can impact downstream usability</li>
+        </ul>
+        <h3>Reflection</h3>
+        <p>
+            This analysis reinforced the importance of validating OCR outputs before using them in downstream applications. It also highlighted how combining technical execution with analytical evaluation leads to more reliable and meaningful results.
+        </p>
+
+        <h2>Extended Experiments</h2>
+        <h3>1. OCR Engine Comparison (Tesseract vs EasyOCR)</h3>
+        <p>
+            Explored and compared Tesseract and EasyOCR engines to understand differences in performance, accuracy, and output quality across multilingual documents.
+        </p>
+        <p>
+            <strong>Key Insight:</strong> Different OCR engines produce varying results depending on document structure and language, reinforcing the importance of selecting the right tool for the task.
+        </p>
+        <p>
+            <a href="https://github.com/Uxer-Janine/outreachy-docling-task/blob/master/04-notebooks/03-tesseract-vs-easyocr-comparison.ipynb" target="_blank">View Analysis Notebook</a>
+        </p>
+        <h3>2. RAG Semantic Retrieval Pipeline (RAG)</h3>
+        <p>
+            Built a basic semantic retrieval pipeline by converting processed documents into embeddings and enabling retrieval based on meaning rather than keyword matching.
+        </p>
+        <p>
+            <strong>Key Insight:</strong> Structured document outputs significantly improve retrieval quality, highlighting the importance of preprocessing in AI pipelines.
+        </p>
+        <p>
+            <a href="https://github.com/Uxer-Janine/outreachy-docling-task/blob/master/04-notebooks/02-rag-semantic-retrieval-pipeline.ipynb" target="_blank">View Analysis Notebook</a>
+        </p>
+        <hr>
+        <h2>Demo & Walkthrough</h2>
+        <h3>Docling OCR Pipeline Demo</h3>
+        <p>
+            To complement the written documentation, I created a walkthrough demonstrating the document processing pipeline and outputs.
+        </p>
+        <p>
+            This video showcases the end-to-end process of running the pipeline, generating outputs, and reviewing results.
+        </p>
+        <iframe
+            src="https://drive.google.com/file/d/1u73YLYaPO5KSL1APeCLV0RJrJgxfPi9J/preview" 
+            width="640" 
+            height="360" 
+            allow="autoplay">
+        </iframe>
+        <hr>
+
+    </section>
+
+</body>
+</html> 
